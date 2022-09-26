@@ -8,6 +8,7 @@ export const getUser = /* GraphQL */ `
       name
       phone
       email
+      money
       createdAt
       updatedAt
     }
@@ -25,6 +26,7 @@ export const listUsers = /* GraphQL */ `
         name
         phone
         email
+        money
         createdAt
         updatedAt
       }

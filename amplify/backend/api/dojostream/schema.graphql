@@ -7,4 +7,5 @@ type User @model {
   name: String!
   phone: Int
   email: String
+  money: Int
 }
