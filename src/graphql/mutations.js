@@ -1,12 +1,12 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createDojo = /* GraphQL */ `
-  mutation CreateDojo(
-    $input: CreateDojoInput!
-    $condition: ModelDojoConditionInput
+export const createUser = /* GraphQL */ `
+  mutation CreateUser(
+    $input: CreateUserInput!
+    $condition: ModelUserConditionInput
   ) {
-    createDojo(input: $input, condition: $condition) {
+    createUser(input: $input, condition: $condition) {
       id
       name
       phone
@@ -16,12 +16,12 @@ export const createDojo = /* GraphQL */ `
     }
   }
 `;
-export const updateDojo = /* GraphQL */ `
-  mutation UpdateDojo(
-    $input: UpdateDojoInput!
-    $condition: ModelDojoConditionInput
+export const updateUser = /* GraphQL */ `
+  mutation UpdateUser(
+    $input: UpdateUserInput!
+    $condition: ModelUserConditionInput
   ) {
-    updateDojo(input: $input, condition: $condition) {
+    updateUser(input: $input, condition: $condition) {
       id
       name
       phone
@@ -31,12 +31,12 @@ export const updateDojo = /* GraphQL */ `
     }
   }
 `;
-export const deleteDojo = /* GraphQL */ `
-  mutation DeleteDojo(
-    $input: DeleteDojoInput!
-    $condition: ModelDojoConditionInput
+export const deleteUser = /* GraphQL */ `
+  mutation DeleteUser(
+    $input: DeleteUserInput!
+    $condition: ModelUserConditionInput
   ) {
-    deleteDojo(input: $input, condition: $condition) {
+    deleteUser(input: $input, condition: $condition) {
       id
       name
       phone
