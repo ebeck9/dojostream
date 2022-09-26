@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dojostream-dev-175230-authRole",
+      "UnauthRoleArn": "arn:aws:iam::574550169921:role/amplify-dojostream-dev-175230-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::574550169921:role/amplify-dojostream-dev-175230-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dojostream-dev-175230-deployment",
+      "UnauthRoleName": "amplify-dojostream-dev-175230-unauthRole",
+      "StackName": "amplify-dojostream-dev-175230",
+      "StackId": "arn:aws:cloudformation:us-east-2:574550169921:stack/amplify-dojostream-dev-175230/bdd010c0-3d24-11ed-8faa-027e1a898160",
+      "AmplifyAppId": "d1bp4pkbuxcgxt"
+    },
+    "categories": {
+      "api": {
+        "dojostream": {}
+      }
+    }
+  }
+}
