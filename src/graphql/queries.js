@@ -3,7 +3,7 @@
 
 export const getUser = /* GraphQL */ `
   query GetUser($id: ID!) {
-    getUser(id: $id) {
+    getUser(id: "1") {
       id
       name
       phone
