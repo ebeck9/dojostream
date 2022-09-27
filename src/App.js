@@ -93,7 +93,6 @@ function App() {
         <button onClick = {printTest}>Users money</button>
       </header>
     </div>
-    
   );
 }
 
